@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignemnet Q1</title>
+    <style>
+        body{
+            display: flex;
+            color: rgb(175, 109, 22);
+            padding: 2cm;
+           flex-direction: row;
+        }
+
+        header , footer{
+
+            border: solid grey;
+
+            border-radius: 2px;
+            padding: 1;
+            background-color: lightgreen;
+        }
+        .navigation{
+            flex:  1;
+            background-color: lightgreen;
+
+        }
+        .column2{
+            flex: 5;
+        }
+        .mainContainer{
+            display: flex;
+            flex-direction: row;
+        }
+        .mainContainer > article{
+
+            flex: 5 ;
+            height: 10cm;
+           background-color: bisque;
+        }
+        .mainContainer > aside{
+            flex : 2;
+            background-color: bisque;
+
+        }
+        nav,header,footer,article,aside{
+            padding: 10px;
+            border: solid grey
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <nav class =  "navigation"> NAV </nav>
+    <div class="column2">
+        <header> This is header </header>
+        <main class="mainContainer"> 
+            <article>  This IS AARTICLE </article>
+            <aside> this is aside </aside>
+        </main>
+        <footer> This is Footer</footer>
+    </div>
+
+
+</body>
+</html> 
